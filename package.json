@@ -1,0 +1,27 @@
+{
+  "name": "medical-pdf-parser",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "국민건강보험공단 진료내역 PDF 3종 결정론적 좌표 파서 (브라우저 전용, 서버 없음)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "tsx test/pipeline.test.ts && tsx test/aggregate.test.ts"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.7.76",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}

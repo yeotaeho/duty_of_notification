@@ -1,0 +1,14 @@
+# dependencies / build
+node_modules/
+dist/
+
+# 개인정보: PDF 의료자료는 저장소에 절대 포함하지 않는다
+pdfs/
+*.pdf
+
+# misc
+*.local
+.DS_Store
+*.log
+.vscode/
+.idea/
